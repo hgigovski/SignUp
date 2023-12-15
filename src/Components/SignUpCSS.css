@@ -1,0 +1,59 @@
+.wraper{
+    
+    background-color: #4171D5;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    display: flex; 
+    align-items: center;
+}
+
+.form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.form > input{
+    border-radius: 3px;
+    border: none;
+    background-color: #355BAE;
+    height: 40px;
+    width: 250px;
+    color: whitesmoke;
+    
+    
+}
+::placeholder{
+    color: #5881DE;
+}
+
+.form > button{
+    margin-top: 5px;
+    height: 30px;
+}
+
+.form > div{
+    font-size: x-small;
+    color: whitesmoke;
+    margin-top: -2px;
+}
+
+.form > button{
+    border-radius: 3px;
+    border: none;
+    color: #355BAE;
+}
+
+.checkbox{display: flex;}
+
+.checkbox > p >a{
+       color: whitesmoke;
+}
+
+.wraper >img{
+    height: 80px;
+    margin: 50px;
+}
+
